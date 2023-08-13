@@ -1,0 +1,27 @@
+label,select{
+    display:block;
+      
+  
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+  
+  input,
+  textarea,
+  select {
+    
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }

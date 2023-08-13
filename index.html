@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+     <label id="name-label">Name</label>
+      <input type="text"id="name"placeholder="Enter your name"required>
+          <label id="email-label">Email</label>
+ 
+       <input type="email"id="email"placeholder="Enter your email"required>
+           <label id="number-label">Age(Optional)</label>
+ 
+      <input type="number"id="number"placeholder="Enter your age"min="10"max="100">
+      <label for="dropdown">Which option best describes your current role?</label>
+      <select id="dropdown">
+    <option>Select Current Role</option>
+    <option>Student</option>
+    <option>Full Time Learner</option>
+    <option>Full Time Job</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>
+        </select>
+        
+     <label for="recommend">Would you recommend freeCodeCamp to a friend?</label>
+<input type="radio"name="group1"value="recommend">Definitely
+
+<input type="radio"name="group1"value="recommend">Maybe
+<input type="radio"name="group2"value="recommend">Not Sure
+
+<label for="feature">What is your favorite feature of freeCodeCamp?</label>
+<select id="feature">
+<option>Select an option</option>
+<option>Challenges</option>
+<option>Projects</option>
+<option>Community</option>
+<option>Open Source</option>
+</select>
+<label for="">What would you like to see improved? (Check all that apply)</label>
+</label>
+<input type="radio"name="group2"value="opt1">Data Visualization
+<input type="radio"name="group3"value="opt2">Front-end Projects
+<input type="radio"name="group3"value="opt3">
+Back-end Projects
+<input type="radio"name="group4"value="opt4">
+Challenges
+<input type="radio"name="group4"value="opt5">Open Source Community
+<input type="radio"name="group5"value="opt6">
+Gitter help rooms
+<input type="radio"name="group5"value="opt7">
+Videos
+<input type="radio"name="group6"value="opt8">City Meetups
+<input type="radio"name="group6"value="opt9">Wiki
+<input type="checkbox"value="opt10">Additional courses
+
+<input type="checkbox"value="opt11">Forum
+      
+       <label for="bio">Any comments or suggestions?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your cooments here..."></textarea>
+        </label>
+       <input id="submit"type="submit" value="Submit" />
+     </form>
+      </body>
+      </html>
